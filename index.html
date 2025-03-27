@@ -8,11 +8,12 @@
         /* General Styles */
         body {
             font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
+            margin: 1;
+            padding: 2;
             background-color: lightgrey;
             color: #333;
             line-height: 1.6;
+            
         }
 
         header {
@@ -44,37 +45,33 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             animation: zoomIn 2s ease-in-out;
         }
+       
 
-        nav {
-            background-color: black;
-            color: #fff;
-            text-align: left;
-            padding: 1rem 0;
-            position: sticky;
-            top: 1;
-            z-index: 1000;
-            box-shadow: 0 2px 3px rgba( 0, 0, 0,1);
-        }
+       
+          /* Navigation Bar */
+         nav {
+         background-color: #333;
+         color: #fff;
+          text-align: center;
+            }
+          nav ul {
+          list-style-type: none;
+          padding: 0;
+          }
+          nav ul li {
+          display: inline;
+          margin: 0 2.5px;
+}
+          nav ul li a {
+          text-decoration: none;
+          color: #fff;
+          transition: color 0.3s ease, background-color 0.3s ease;
+          border-radius:30px;
+}
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            gap: 0.2rem;
-        }
 
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-            font-weight:300;
-            transition: color 0.3s ease;
-        }
-
-        nav ul li a:hover {
-            color: #bb86fc;
-        }
+        
+        
 
         .section-content {
             background-color: white;
@@ -216,7 +213,7 @@
         <div class="section-content">
             <h2><u>Projects</u></h2>
             <ul>
-                <li><a href="https://dineshmj2021.github.io/digital-portfolio1/">Student-portfolio</a></li>
+                <li><a href="https://dineshmj2021.github.io/digital-portfolio1/">Digital-portfolio</a></li>
                 
             </ul>
         </div>
